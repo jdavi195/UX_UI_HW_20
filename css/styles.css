@@ -210,6 +210,32 @@ section.travel {
     display: inline-block;
 }
 
+/*-- research content text--*/
+.research {
+    padding: 50px;
+    text-align: left;
+}
+
+.results {
+    text-align: left;
+    padding-left: 15%;
+    align-items: left;
+}
+.h2 {
+    padding: 25%;
+}
+div.container2 {
+    width: 60px;
+    height: 40px;
+    
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+/*-- research content ends--*/
+
 /*-- Research problem sections ends here--*/
 
 
