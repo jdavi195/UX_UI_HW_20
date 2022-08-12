@@ -61,14 +61,13 @@ section.travel {
 .right {
     width: 60%;
     min-height: 400px;
-    background-color: grey;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 30px;
     border-radius: 8px;
-    color: white;
     margin-left: -100px;
+    background-color:white;
 }
 
 .right h1 {
@@ -80,17 +79,6 @@ section.travel {
     margin: 20px 0;
     font-weight: 500;
     line-height: 25px;
-}
-
-.right a {
-    text-decoration: none;
-    text-transform: uppercase;
-    background-color: white;
-    color: blueviolet;
-    padding: 10px 20px;
-    display: inline-block;
-    letter-spacing: 2px;
-
 }
 
 .icon {
