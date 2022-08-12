@@ -212,8 +212,10 @@ section.travel {
 
 /*-- research content text--*/
 .research {
-    padding: 50px;
+    padding: 25px;
     text-align: left;
+    display: flex;
+    justify-content: left;
 }
 
 .results {
@@ -221,17 +223,35 @@ section.travel {
     padding-left: 15%;
     align-items: left;
 }
-.h2 {
-    padding: 25%;
+
+.results h2 {
+    font-size: 55px;
+    float:left;
+    align-items: left;
+    display: flex;
+    justify-content: flex-start;
 }
+
+.results p {
+    align-items: center;
+    margin: auto;
+    font-size: 24px;
+    float:left;
+    align-items: left;
+    display: flex;
+    justify-content: flex-start;
+}
+
 div.container2 {
+    padding: 20%;
+    margin-right: 15%;
     width: 60px;
     height: 40px;
-    
+    float:right;
     align-items: center;
     display: flex;
-    justify-content: center;
-
+    justify-content: right;
+    border-radius: 8px;
 }
 
 /*-- research content ends--*/
