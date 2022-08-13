@@ -271,6 +271,17 @@ section.travel {
     background-repeat: no-repeat;
     background-position: center;
     height: 200px;
+    border-style: none;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.card-img-overlay h2 {
+    font-size: 55px;
+}
+
+.card-img-overlay p {
+    font-size: 24px;
 }
 
 div.container2 {
@@ -319,11 +330,6 @@ div.container2 {
     margin-top: 5%;
     margin-bottom: 5%;
     margin-right: 5%;
-}
-
-.col {
-    height:max-content;
-    width: max-content;
 }
 
 /*-- research content ends--*/
