@@ -123,12 +123,17 @@ a.nav-link {
 
 /*case study hero img*/
 .hero {
+    margin-top: 0;
+    padding: 0;
     background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url("../images/budgetcoverLG.png");
     background-size: cover;
     display: flex;
     background-repeat: no-repeat;
     align-items: center;
     justify-content: center;
+    border-style: none;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .title {
@@ -254,10 +259,18 @@ section.travel {
     justify-content: flex-start;
 }
 
-.results img {
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-right: 5%;
+.card {
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.bgcontainer {
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(../images/researchbg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
 }
 
 div.container2 {
