@@ -387,8 +387,112 @@ section.research {
     padding: 5px;
 }
 
-
 /*-- research section survey age ends--*/
+
+/*-- research section survey planning --*/
+
+section.research2 {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.container_research2 {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left_res2 {
+    width: 40%;
+    height: 600px;
+    background-image:url(../images/surveytimespent.png);
+    background-repeat: no-repeat;
+    background-image: center;
+    background-image: cover;
+    background-size: contain;
+    min-inline-size: 75px;
+    border-radius: 8px;
+    margin-left: 5%;
+    margin-right: 20px;
+    padding: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.right_res2 {
+    width: 60%;
+    min-height: 400px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 8px;
+    margin-right: -10px;
+
+}
+
+.right_res2 h1 {
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.right_res2 p {
+    margin: 20px 0;
+    font-weight: 100;
+    font-size: x-large;
+    line-height: 45px;
+    padding: 5px;
+}
+
+/*-- research section planning ends--*/
+
+/*-- research section travel apps used--*/
+
+section.research3 {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.container_research3 {
+    width: 100%;
+    margin-left: 10%;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+.content3 h1 {
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.content3 p {
+    margin: 20px 0;
+    font-weight: 100;
+    font-size: x-large;
+    line-height: 45px;
+    padding: 5px;
+}
+
+.list-tab {
+    font-weight: 100;
+    font-size: x-large;
+    line-height: 45px;
+    padding: 5px;
+    color: #3C1A5B;
+}
+
 
 button.click {
     margin-left:70px;
