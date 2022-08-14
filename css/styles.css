@@ -392,7 +392,7 @@ section.research {
 /*-- research section survey planning --*/
 
 section.research2 {
-    min-height: 100vh;
+    min-height: 90vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -456,7 +456,7 @@ section.research2 {
 /*-- research section travel apps used--*/
 
 section.research3 {
-    min-height: 100vh;
+    min-height: 40vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -490,7 +490,6 @@ section.research3 {
     font-size: x-large;
     line-height: 45px;
     padding: 5px;
-    color: #3C1A5B;
 }
 
 
@@ -528,6 +527,24 @@ button.click {
 
 .click:enabled {
     border-bottom: none;
+}
+
+.userinterviews h1 {
+font-size: 40px;
+font-weight: lighter;
+}
+
+.userinterviews h5 {
+    font-size: 40px;
+    font-weight: lighter;
+    }
+    
+.userinterviews p {
+    margin: 20px 0;
+    font-weight: 100;
+    font-size: x-large;
+    line-height: 45px;
+    padding: 5px;
 }
 
 
