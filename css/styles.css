@@ -26,7 +26,6 @@ a.nav-link {
         top: 15px;
     }
 
-
     .right {
         width: 100%;
         min-height: 600px;
@@ -547,13 +546,82 @@ font-weight: lighter;
     padding: 5px;
 }
 
+/*-- image magnifier section user insight--*/
 
+* {box-sizing: border-box;}
 
+.img-magnifier-container {
+  position: relative;
+}
 
+.img-magnifier-glass {
+  position: absolute;
+  border: 3px solid #3C1A5B;
+  border-radius: 50%;
+  cursor: none;
+  /*Set the size of the magnifier glass:*/
+  width: 100px;
+  height: 100px;
+}
 
+/*-- image magnifier section user insight--*/
+
+div.container-fluid .col-4 {
+    margin-top: 40px;
+    height: 400px;
+    background-image: url(../images/user_persona.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+}
+
+div.container-fluid .row .col-4 .textcontent {
+    text-align:left;
+    margin-top: 100%;
+    margin-left: 50px;
+}
+
+div.container-fluid .col-8 {
+    margin-top: 40px;
+    height: 800px;
+    display: inline-block;
+    justify-content: left;
+    padding-right: 125px;
+}
+
+div.col-8 h4 {
+    margin-top: 5%;
+}
 /*-- research content ends--*/
 
-/*-- Research problem sections ends here--*/
+.card {
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.bgcontainer2 {
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(../images/skyimage.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    border-style: none;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.card-img-overlay2 h2 {
+    margin-top: 20px;
+    font-size: 55px;
+}
+
+.card-img-overlay2 p {
+    font-size: 24px;
+}
+/*-- problem statement sections ends here--*/
 
 
 /*-- Research solution--*/
