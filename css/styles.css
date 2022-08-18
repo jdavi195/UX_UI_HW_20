@@ -630,6 +630,7 @@ div.col-8 h4 {
     border: none;
     cursor: pointer;
     border-radius: 75%;
+    display: none;
 }
 /*-- problem statement sections ends here--*/
 
