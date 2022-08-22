@@ -1,14 +1,20 @@
-$(document).ready(function(){
+const btnScrollToTop = document.querySelector("#btnScrollToTop");
+btnScrollToTop.addEventListener("click", function () {
 
-    $(window).scroll(function(){
-        if($(this).scrollTop() > 40){
-            $("#topBtn").fadeIn();
-        } else{
-            $("#topBtn").fadeOut();
+var offset = 300
+
+    $(window) .on('btnScrollToTop', function () {
+
+        if( $(window) .scrollTop() > offset ) {
+            $('body') .addClass('show')
+        }else{
+            $ ('body') .removeClass('show')
         }
-    });
-    
-    $("#topBtn").click(function(){
-        $("html ,body").animate({scrollTop : 0},800);
+    });    
+
+    window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: "smooth"
     });
 });

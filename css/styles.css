@@ -6,8 +6,13 @@
     box-sizing: border-box;
 }
 
+div {
+    white-space: normal;
+  }
+
 html {
     font-family: 'Montserrat';
+    scroll-behavior: smooth;
 }
 
 a.nav-link {
@@ -641,7 +646,7 @@ div.col-8 h4 {
 /*-- Prototype--*/
 
 .container3 .row {
-    height: 600px;
+    height: fit-content;
     margin: 0;
     padding: 0;
 }
@@ -679,8 +684,33 @@ div .col3 {
     background-color: #1a5b25;
 }
 
-div .container7 .col2 {
+div .container7 .col1 {
+    padding-top: 50%;
+}
 
+div .container7 .col2 {
+    padding-top: 50px;
+    justify-content: left;
+}
+
+#btnScrollToTop {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 50%;
+    background-color: #7b38B8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    color: #ffffff;
+    outline: none;
+    cursor: pointer;
+    border: none;
+}
+
+#btnScrollToTop:active {
+    background:#3C1A5B ;
 }
 
 /*-- Prototype ends here--*/

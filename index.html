@@ -8,6 +8,7 @@
         <meta name="description" content="width=device-width, initial-scale=1.0">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/styles.css" type="text/css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">  
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
@@ -26,26 +27,26 @@
                 <div class="collapse navbar-collapse" id="navbarScroll">
                   <ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 100px;">
                     <li class="nav-item active">
-                      <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                      <a class="nav-link" href="#Home">Home<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Research</a>
+                      <a class="nav-link" href="#Research">Research</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Problem</a>
+                        <a class="nav-link" href="#Problem">Problem</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Definition</a>
+                        <a class="nav-link" href="#Definition">Definition</a>
                       </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Prototype</a>
+                        <a class="nav-link" href="#Prototype">Prototype</a>
                     </li>
                     <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
                         More
                       </a>
                       <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Download PDF</a></li>
+                        <li><a class="dropdown-item" href="/documents/UX_Design_Case_Study_BudgeIT_App.pdf">Download PDF</a></li>
                         <li><a class="dropdown-item" href="#">View</a></li>
                         <li><hr class="dropdown-divider"></li>
                         <li><a class="dropdown-item" href="#">Something else here</a></li>
@@ -60,7 +61,7 @@
 <!-- bootstrap jumbotron with edited css style images -->
         <section>
             <br>
-            <div class="jumbotron jumbotron-fluid hero">
+            <div id="Home" class="jumbotron jumbotron-fluid hero">
                 <div class="container" style="height: 400px;">
                   <h1 class="title">TRAVELING IN A POST-PANDEMIC SOCIETY:
                     </h1>
@@ -71,7 +72,7 @@
 <!-- bootstrap jumbotron ends -->
 
 <!-- coded research section -->
-        <section class="travel">
+        <section id="Research" class="travel">
           <div class="containertravel">
             <div class="left"></div>
             <div class="right">
@@ -201,7 +202,7 @@
 
 <section>
 
-  <div>
+  <div id="Problem">
   
     <a target="_blank" href="images/userinsight.jpg">
     <img id="myimage" src="images/userinsight.jpg" alt="userinsight" width="100%" height="100%">
@@ -227,7 +228,7 @@
 </section>
 
 <section>
-  <div class="container-fluid p-0">
+  <div id="Definition" class="container-fluid p-0">
 
     <div class="row">
 
@@ -271,7 +272,7 @@
 <!-- bootstrap 4 columns added and edited with html -->
 <!-- solution section coded -->
 <section>
-  <div class="card bg-dark text-white">
+  <div id="Prototype" class="card bg-dark text-white">
     <div class="bgcontainer2">
     <div class="card-img-overlay2">
       <h2 class="card-title">Problem Statement</h2>
@@ -343,6 +344,22 @@
 
 <section class="proto">
   <div class="container3">
+    <div class="row row-cols-2">
+      <div class="col1">
+        <h2>User Testing Iterations</h2>
+        <p>Throughout the design process I conducted several user test and made improvement based on the result.</p>
+        <h2>UI Improvements</h2>
+        <p>Prior to user testing, the "Hello" coaching page did not give users the option to advance after reading the content. The addition of a button allows users the option of choosing when to advance.</p>
+      </div>
+      <div class="container7">
+      <div class="col2"><img src="images/Budget_demo.gif" width="90%" height="90%"></div>
+    </div>
+    </div>
+  </div>
+</section>
+
+<section class="proto">
+  <div class="container3">
     <div class="row row-cols-">
       <div class="col1">
         <h2>Future features Iterations</h2>
@@ -362,7 +379,9 @@
   </div>
 </section>
 
-  <button id="topBtn"><i class="fa-solid fa-arrow-up"></i></button>
+<button id="btnScrollToTop">
+  <i class="material-icons">arrow_upward</i>
+</button>
 <!-- columns end -->
 <!-- solution end -->
         <script src="/script.js"></script>
