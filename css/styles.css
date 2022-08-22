@@ -577,6 +577,8 @@ div.container-fluid .row .col-4 .textcontent {
     text-align:left;
     margin-top: 100%;
     margin-left: 50px;
+    display: inline-flex;
+    justify-content: space-around;
 }
 
 div.container-fluid .col-8 {
@@ -607,6 +609,7 @@ div.col-8 h4 {
     border-style: none;
     background-size: cover;
     background-attachment: fixed;
+    padding-top: 50px;
 }
 
 .card-img-overlay2 h2 {
@@ -635,6 +638,42 @@ div.col-8 h4 {
 /*-- problem statement sections ends here--*/
 
 
-/*-- Research solution--*/
+/*-- Prototype--*/
 
-/*-- Research solution ends here--*/
+.container3 .row {
+    height: 600px;
+    margin: 0;
+    padding: 0;
+}
+
+div .col1 {
+    text-align: center;
+    margin-top: 15px;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+div .col1 h2 {
+    font-size: 55px;
+    margin-top: 5%;
+    padding-top: 5px;
+}
+
+
+div .col1 p {
+    font-size: 24px;
+}
+
+
+div .col2 {
+    display: inline-flex;
+    justify-content: flex-start;
+}
+
+div .col3 {
+    background-color: #1a5b25;
+}
+
+
+
+/*-- Prototype ends here--*/
